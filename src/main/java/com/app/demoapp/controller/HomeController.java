@@ -52,7 +52,10 @@ public class HomeController {
         return counter <= 1;
     }
 
-
+    @GetMapping("/cities")
+    public List<String> cities()  {
+        return List.of("Atlanta", "Dallas", "New York");
+    }
 
 
 }
