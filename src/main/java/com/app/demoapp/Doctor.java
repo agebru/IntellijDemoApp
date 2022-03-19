@@ -24,7 +24,6 @@ public class Doctor {
 
     @Override
     public String toString() {
-        return
-                "qualification='" + qualification ;
+        return "qualification=" + qualification ;
     }
 }
