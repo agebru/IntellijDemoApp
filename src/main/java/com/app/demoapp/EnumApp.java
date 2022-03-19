@@ -2,6 +2,7 @@ package com.app.demoapp;
 
 public class EnumApp {
 
+    // Enum demo
 
     public static void main(String[] args) {
 
@@ -69,7 +70,7 @@ public void hello(){
 
         private String value;
 // Enum Constructor should always be private
-       private DAYS(String value){
+        DAYS(String value){
             this.value=value;
 
         }
@@ -78,7 +79,7 @@ public void hello(){
         }
 
         public abstract void lunch();
-    };
+    }
 }
 
 
